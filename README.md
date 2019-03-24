@@ -1,7 +1,7 @@
 # Phaser Angular 7 PlayGround
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
-An working demo for Phaser with Angular 7.
+> An working demo for Phaser, Angular 7 and Phaser Component Library.
 
 ## Requirements
 - Phaser
@@ -70,4 +70,4 @@ export class AppComponent {
 
 }
 ```
-> Thanks to <a href="https://tristanbonsor.github.io/" target="_blank">Tristan Bonsor</a> for an awesome Phaser Component Library
+Thanks to <a href="https://tristanbonsor.github.io/" target="_blank">Tristan Bonsor</a> for an awesome Phaser Component Library
