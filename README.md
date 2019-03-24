@@ -4,9 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 A working demo for Phaser with Angular 7.
 
 ## Requirements
-
-
+- Phaser
+- [Phaser Component Library](https://github.com/TristanBonsor/phaser-component-library)
 
 ## Installation & Integration
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Create an Angular 7 Project using angular cli.
+``
+ng new phaserangular
+``
+
+2. 
