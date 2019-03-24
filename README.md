@@ -61,7 +61,10 @@ export class AppModule { }
 ]
 ```
 
-8. Now generate a service to add a game scene. But make sure to inherit Phaser.Scene otherwise your app won't compile. Like
+8. Now generate a service to add a game scene. But make sure to inherit Phaser.Scene otherwise your app won't compile.
+```bash
+$ ng generate service gameplay --skipTests
+```
 ```typescript
 export class GameplayService extends Phaser.Scene {
 }
