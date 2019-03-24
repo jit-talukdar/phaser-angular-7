@@ -52,7 +52,7 @@ export class AppModule { }
 ```
 
 
-7. In your tsconfig.json File add `"scripthost"` in lib array otherwise ActiveXObject error will encounter.
+7. In your tsconfig.json file add `"scripthost"` in lib array otherwise ActiveXObject error will encounter.
 ```json
 "lib": [
   "es2018",
