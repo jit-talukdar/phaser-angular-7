@@ -36,7 +36,19 @@ $ npm install phaser-component-library
 6. Now import the phaser module in your App module.
 ```typescript
 import { PhaserModule } from 'phaser-component-library';
-imports: [PhaserModule]
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    PhaserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 ```
 
 
