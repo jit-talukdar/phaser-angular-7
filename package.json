@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "get-phaser-typings": "curl -o src/phaser.d.ts https://raw.githubusercontent.com/photonstorm/phaser3-docs/master/typescript/phaser.d.ts",
-    "postinstall": "npm run get-phaser-typings"
+    "phaser-typings": "curl -o src/phaser.d.ts https://raw.githubusercontent.com/photonstorm/phaser3-docs/master/typescript/phaser.d.ts",
+    "postinstall": "npm run phaser-typings"
   },
   "private": true,
   "dependencies": {
