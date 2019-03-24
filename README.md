@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Create an Angular 7 Project using angular cli. 
 ```bash
-ng new phaserangular
+$ ng new phaserangular
 ```
 2. Now open the newly created project on your IDE.
 3. Go to package.json and add this below lines within script object and save the file.
@@ -21,14 +21,16 @@ ng new phaserangular
 ```
 4. Now install the dependency modules and add Phaser and Phaser component library. Type this below lines from your terminal
 ```bash
-npm install
-npm install phaser
-npm install phaser-component-library
+$ npm install
+$ npm install phaser
+$ npm install phaser-component-library
 ```
 
 5. Open angular.json and add phaser.js file in the script section.
-```javascript
-"node_modules/phaser/dist/phaser.js"
+```json
+"scripts": [
+  "node_modules/phaser/dist/phaser.js"
+],
 ```
 
 6. Now import the phaser module in your App module.
