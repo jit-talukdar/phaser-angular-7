@@ -37,7 +37,6 @@ import { PhaserModule } from 'phaser-component-library';
 imports: [PhaserModule]
 ```
 
-> We're living the future so
 
 7. In your tsconfig.json File add "scripthost" in lib array otherwise ActiveXObject error will encounter.
 
@@ -71,3 +70,4 @@ export class AppComponent {
 
 }
 ```
+> Thanks to <a href="https://tristanbonsor.github.io/" target="_blank">Tristan Bonsor</a> for an awesome Phaser Component Library
