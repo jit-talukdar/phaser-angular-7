@@ -1,7 +1,7 @@
 # Phaser Angular 7 PlayGround
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
-A working demo for Phaser with Angular 7.
+An working demo for Phaser with Angular 7.
 
 ## Requirements
 - Phaser
@@ -9,7 +9,10 @@ A working demo for Phaser with Angular 7.
 
 ## Installation & Integration
 
-1. Create an Angular 7 Project using angular cli. `ng new phaserangular`
+1. Create an Angular 7 Project using angular cli. 
+```bash
+ng new phaserangular
+```
 2. Now open the newly created project on your IDE.
 3. Go to package.json and add this below lines within script object and save the file.
 ```json
@@ -17,7 +20,7 @@ A working demo for Phaser with Angular 7.
 "postinstall": "npm run get-phaser-typings"
 ```
 4. Now install the dependency modules and add Phaser and Phaser component library. Type this below lines from your terminal
-```
+```bash
 npm install
 npm install phaser
 npm install phaser-component-library
@@ -29,15 +32,17 @@ npm install phaser-component-library
 ```
 
 6. Now import the phaser module in your App module.
-```javascript
+```typescript
 import { PhaserModule } from 'phaser-component-library';
 imports: [PhaserModule]
 ```
 
+> We're living the future so
+
 7. In your tsconfig.json File add "scripthost" in lib array otherwise ActiveXObject error will encounter.
 
 8. Now generate a service to add a game scene. But make sure to inherit Phaser.Scene otherwise your app won't compile. Like
-```javascript
+```typescript
 export class GameplayService extends Phaser.Scene {
 }
 ```
@@ -46,7 +51,7 @@ export class GameplayService extends Phaser.Scene {
 <phaser-component [gameConfig]="gameConfig" (gameReady)="onGameReady($event)"></phaser-component>
 ```
 10. Initiate the game from your component.ts. For an example I am using app.component.ts.
-```javascript
+```typescript
 export class AppComponent {
   title = 'Angular 7 working with Phaser JS';
 
