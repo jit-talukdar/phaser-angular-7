@@ -16,8 +16,8 @@ ng new phaserangular
 2. Now open the newly created project on your IDE.
 3. Go to package.json and add this below lines within script object and save the file.
 ```json
-"get-phaser-typings": "curl -o src/phaser.d.ts https://raw.githubusercontent.com/photonstorm/phaser3-docs/master/typescript/phaser.d.ts",
-"postinstall": "npm run get-phaser-typings"
+"phaser-typings": "curl -o src/phaser.d.ts https://raw.githubusercontent.com/photonstorm/phaser3-docs/master/typescript/phaser.d.ts",
+"postinstall": "npm run phaser-typings"
 ```
 4. Now install the dependency modules and add Phaser and Phaser component library. Type this below lines from your terminal
 ```bash
