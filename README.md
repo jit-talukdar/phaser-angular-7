@@ -26,7 +26,7 @@ npm install phaser-component-library
 5. Open angular.json and add phaser.js file in the script section.
 ```javascript
 "node_modules/phaser/dist/phaser.js"
-``
+```
 
 6. Now import the phaser module in your App module.
 ```javascript
