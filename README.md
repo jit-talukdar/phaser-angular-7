@@ -1,7 +1,7 @@
-# Phaser Angular 7 PlayGround
+# Phaser with Angular 7
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
-> An working demo for Phaser, Angular 7 and Phaser Component Library.
+> An working playground demo with Phaser, Angular 7 and Phaser Component Library.
 
 ## Requirements
 - Phaser
