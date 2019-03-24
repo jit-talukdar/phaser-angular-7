@@ -52,7 +52,14 @@ export class AppModule { }
 ```
 
 
-7. In your tsconfig.json File add "scripthost" in lib array otherwise ActiveXObject error will encounter.
+7. In your tsconfig.json File add `"scripthost"` in lib array otherwise ActiveXObject error will encounter.
+```json
+"lib": [
+  "es2018",
+  "dom",
+  "scripthost"
+]
+```
 
 8. Now generate a service to add a game scene. But make sure to inherit Phaser.Scene otherwise your app won't compile. Like
 ```typescript
