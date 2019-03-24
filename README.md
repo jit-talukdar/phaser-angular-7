@@ -91,4 +91,3 @@ export class AppComponent {
 
 }
 ```
-Thanks to <a href="https://tristanbonsor.github.io/" target="_blank">Tristan Bonsor</a> for an awesome Phaser Component Library
